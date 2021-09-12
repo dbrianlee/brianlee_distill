@@ -5,7 +5,7 @@
       "title": "Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-09-12T17:45:27-05:00"
+      "last_modified": "2021-09-12T18:12:08-05:00"
     },
     {
       "path": "index.html",
@@ -13,7 +13,7 @@
       "description": "Advanced Data Science, Fall 2021\n",
       "author": [],
       "contents": "\n\nAbout me:\nEducation:\n\n\n\n",
-      "last_modified": "2021-09-12T17:45:28-05:00"
+      "last_modified": "2021-09-12T18:12:09-05:00"
     }
   ],
   "collections": ["posts/posts.json"]

@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-![](leebrian.JPG){width=200}
+![](leebrian.JPG){width=50}
 
 ## About me:
 
