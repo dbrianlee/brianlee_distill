@@ -1,0 +1,18 @@
+---
+title: "Brian Lee"
+description: |
+  Advanced Data Science, Fall 2021
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+![](leebrian.JPG){width=200}
+
+## About me:
+
+## Education:
+

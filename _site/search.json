@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "blog.html",
+      "title": "Blog",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-09-12T17:45:27-05:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Brian Lee",
+      "description": "Advanced Data Science, Fall 2021\n",
+      "author": [],
+      "contents": "\n\nAbout me:\nEducation:\n\n\n\n",
+      "last_modified": "2021-09-12T17:45:28-05:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

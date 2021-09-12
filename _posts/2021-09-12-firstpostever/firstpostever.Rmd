@@ -1,0 +1,21 @@
+---
+title: "This is my first blog post!"
+description: |
+  This is my first blog post on my new website!
+author:
+  - name: Brian Lee
+date: 09-12-2021
+preview: first_blogpost.photo.png
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Here is me talking about my new post on my new blog.
+
+

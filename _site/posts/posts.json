@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/2021-09-12-firstpostever/",
+    "title": "This is my first blog post!",
+    "description": "This is my first blog post on my new website!",
+    "author": [
+      {
+        "name": "Brian Lee",
+        "url": {}
+      }
+    ],
+    "date": "2021-09-12",
+    "categories": [],
+    "contents": "\nHere is me talking about my new post on my new blog.\n\n\n\n",
+    "preview": "posts/2021-09-12-firstpostever/first_blogpost.photo.png",
+    "last_modified": "2021-09-12T17:06:27-05:00",
+    "input_file": {}
+  }
+]
