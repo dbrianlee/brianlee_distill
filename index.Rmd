@@ -1,7 +1,7 @@
 ---
 title: "Brian Lee"
 description: |
-  Third-year student at Macalester College studying International Studies and Applied Math and Statistics!
+  Third-year student at Macalester College studying International Studies and Applied Math & Statistics!
 site: distill::distill_website
 ---
 
