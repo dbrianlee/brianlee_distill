@@ -9,7 +9,11 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+<center>
+
 ![Taken at Raymondskill Falls in my hometown, Milford PA!](leebrian.JPG){width=70%}
+
+</center>
 
 ## About me
 I am currently a third-year student at Macalester College with an overarching goal of working toward equitable global healthcare systems by taking an interdisciplinary approach to public health and bridging the gap between quantitative analysis and the humanities to better understand the social and structural determinants of health. I am especially passionate about using academia as a vessel for social activism and looking at modern-day issues through a socioplitical lens.
