@@ -1,7 +1,7 @@
 ---
 title: "This is my first blog post!"
 description: |
-  This is my first blog post on my new website!
+  Welcome to my new website!
 author:
   - name: Brian Lee
 date: 09-12-2021
@@ -16,6 +16,6 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Here is me talking about my new post on my new blog.
+Hello! My name is Brian -- thanks for paying my page a visit! In the future, look out for Tidy Tuesday Exercises and more. The picture above is of a small town called Alma in Wisconsin. 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Brian Lee"
 description: |
-  Advanced Data Science, Fall 2021
+  Third-year 
 site: distill::distill_website
 ---
 
@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ![](leebrian.JPG){width=50}
 
 ## About me:
+Second-year student at Macalester College with an overarching goal of working toward equitable global healthcare systems by taking an interdisciplinary approach to public health and bridging the gap between quantitative analysis and the humanities to better understand the social and structural determinants of health.
 
 ## Education:
-
+Macalester College - Candidate for a BA in Applied Math & Statistics and International Studies (Political Science disc. focus)
