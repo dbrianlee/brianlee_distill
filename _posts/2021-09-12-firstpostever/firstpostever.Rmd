@@ -1,11 +1,11 @@
 ---
-title: "This is my first blog post!"
+title: "This is my first ever blog post!"
 description: |
   Welcome to my new website!
 author:
   - name: Brian Lee
 date: 09-12-2021
-preview: first_blogpost.photo.png
+preview: alma_wi.png
 output:
   distill::distill_article:
     self_contained: false
@@ -16,6 +16,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Hello! My name is Brian -- thanks for paying my page a visit! In the future, look out for Tidy Tuesday Exercises and more. The picture above is of a small town called Alma in Wisconsin. 
+![](alma_wi.png)
+
+Thanks for paying my page a visit! In the future, look out for weekly Tidy Tuesday Exercises and all other things related to Advanced Data Science. The picture above is of a sunset I saw in small town called Alma in Wisconsin. 
 
 

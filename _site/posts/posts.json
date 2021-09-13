@@ -1,8 +1,8 @@
 [
   {
     "path": "posts/2021-09-12-firstpostever/",
-    "title": "This is my first blog post!",
-    "description": "This is my first blog post on my new website!",
+    "title": "This is my first ever blog post!",
+    "description": "Welcome to my new website!",
     "author": [
       {
         "name": "Brian Lee",
@@ -11,9 +11,9 @@
     ],
     "date": "2021-09-12",
     "categories": [],
-    "contents": "\nHere is me talking about my new post on my new blog.\n\n\n\n",
-    "preview": "posts/2021-09-12-firstpostever/first_blogpost.photo.png",
-    "last_modified": "2021-09-12T17:06:27-05:00",
+    "contents": "\n\nThanks for paying my page a visit! In the future, look out for weekly Tidy Tuesday Exercises and all other things related to Advanced Data Science. The picture above is of a sunset I saw in small town called Alma in Wisconsin.\n\n\n\n",
+    "preview": "posts/2021-09-12-firstpostever/alma_wi.png",
+    "last_modified": "2021-09-12T23:13:35-05:00",
     "input_file": {}
   }
 ]

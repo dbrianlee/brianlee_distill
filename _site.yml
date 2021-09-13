@@ -7,7 +7,7 @@ navbar:
   right:
     - text: "About"
       href: index.html
-    - text: "Blog"
+    - text: "Advanced Data Science"
       href: blog.html
     - icon: fa fa-github
       href: https://github.com/dbrianlee
