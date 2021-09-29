@@ -54,9 +54,9 @@ top10_dist %>%
        caption = "Visualization Created by Brian Lee",
        x = "", y = "") +
   geom_col() +
-  geom_text(aes(label = nominations_num), vjust = -0.2) +
-  theme(panel.background = element_rect(fill = "#d0d8e3")) +
-  theme(plot.background = element_rect(fill = "#d0d8e3"))
+  geom_text(aes(label = nominations_num), vjust = -0.2) 
+  #theme(panel.background = element_rect(fill = "#d0d8e3")) +
+  #theme(plot.background = element_rect(fill = "#d0d8e3"))
           
 ```
 
