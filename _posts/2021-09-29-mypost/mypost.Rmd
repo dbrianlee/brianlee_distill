@@ -1,0 +1,64 @@
+---
+title: "Tidy Tuesday, 29 September 2021"
+description: |
+  A short description of the post.
+author:
+  - name: Brian Lee
+    url: {}
+date: 09-29-2021
+preview: emmys.jpeg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+# loading libraries
+library(tidyverse)
+```
+
+
+```{r}
+nominees <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-09-21/nominees.csv')
+```
+
+
+```{r}
+distributors <- nominees %>%
+  filter(year == c("2021")) %>%
+  distinct(title, .keep_all= TRUE) %>%
+  group_by(distributor) %>%
+  summarize(nominations_num = sum(type == "Nominee")) %>%
+  arrange(desc(nominations_num))
+
+top10_dist <- head(distributors, 10)
+```
+
+```{r, fig.width=8, fig.height=5}
+top10_dist %>%
+  mutate(dist2 = fct_reorder(distributor, nominations_num, .desc = TRUE)) %>%
+  ggplot(aes(x = dist2, y = nominations_num)) +
+  labs("Netflix leads in nominations ")+
+  theme_classic() +
+  theme(plot.title.position = "plot",
+        plot.title = element_text(size = 20, face = "bold"),
+        plot.subtitle = element_text(size = 10, face = "italic"),
+        plot.caption = element_text(size = 10, face = "italic")) +
+  labs(title = "Number of Nominations by Distributor at the 2021 Emmys", # Adding a title & subtitle
+       subtitle = "Netflix, HBO, and CBS lead in nominations",
+       caption = "Visualization Created by Brian Lee",
+       x = "", y = "") +
+  geom_col() +
+  geom_text(aes(label = nominations_num), vjust = -0.2) +
+  theme(panel.background = element_rect(fill = "#d0d8e3")) +
+  theme(plot.background = element_rect(fill = "#d0d8e3"))
+          
+```
+
+Through the creation of my bar graph above, I wanted to see if there were certain distributors that were leading in the 2021 Emmy nominations. In my visualization, I graphed the top 15 media distributors with the most nominations. With 26 of their shows nominated, Netflix leads the pack, with HBO, CBS, and NBC following.
+

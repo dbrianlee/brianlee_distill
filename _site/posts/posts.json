@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-09-29-mypost/",
+    "title": "Tidy Tuesday, 29 September 2021",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Brian Lee",
+        "url": {}
+      }
+    ],
+    "date": "2021-09-29",
+    "categories": [],
+    "contents": "\n\n\n\n\n\n\n\n\n\n\n\n\nThrough the creation of my bar graph above, I wanted to see if there were certain distributors that were leading in the 2021 Emmy nominations. In my visualization, I graphed the top 15 media distributors with the most nominations. With 26 of their shows nominated, Netflix leads the pack, with HBO, CBS, and NBC following.\n\n\n\n",
+    "preview": "posts/2021-09-29-mypost/emmys.jpeg",
+    "last_modified": "2021-09-29T17:32:43-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-09-12-firstpostever/",
     "title": "This is my first ever blog post!",
     "description": "Welcome to my new website!",
